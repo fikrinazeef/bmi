@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/javascript.js"></script>
+
+		<title>BMI Calculator</title>
+	</head>
+	<body>
+		<div>
+			<h2>BMI Calculator</h2>
+			<p class="text">Height (cm)</p>
+			<input type="number" id="height" placeholder="Enter your height (cm)"required>
+
+			<p class="text">Weight (kg)</p>
+			<input type="number" id="weight" placeholder="Enter your weight (kg) "required>
+
+			<p id="result"></p>
+			<button id="btn" onClick="BMI()">Calculate</button>
+
+			<br><br>
+			 <table>
+					 <caption>BMI INDEX</caption>
+					 <tr>
+						 <th>Underweight</th>
+						 <th>Healthy</th>
+						 <th>Overweight</th>
+						 <th>Obese</th>
+					 </tr>
+					 <tr>
+						 <td>Below 18.5</td>
+						 <td>18.5–24.9</td>
+						 <td>25.0–29.9</td>
+						 <td>30.0 and above</td>
+					 </tr>
+				 </table>
+	 </div>
+	</body>
+</html>
